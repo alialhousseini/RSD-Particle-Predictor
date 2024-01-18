@@ -7,7 +7,19 @@ This repository contains our work [Me](https://github.com/alialhousseini) & [San
 This project addresses a significant challenge in particle physics: accurately predicting the positions of particles, like electrons, as they pass through a Resistive Silicon Detector (RSD). The task involves analyzing signals captured by the RSD's pads, which provide crucial data points for determining particle trajectories. The complexity of this problem lies in the intricate nature of the signals and the precision required to accurately map particle positions. Developing a predictive model capable of handling this complexity is not only essential for advancing our understanding of particle behaviors but also has broader implications in the field of physics research and detector technology.
 
 ### Dataset
-The dataset for this project comprises 514,000 events, each representing a unique particle interaction with the RSD. Key features in this dataset include signal magnitude, area, and delay, which are essential for understanding the behavior of particles as they pass through the detector. These features serve as the basis for predicting the $(x, y)$ coordinates of particle events. The dataset's large size and comprehensive feature set present an opportunity to develop and train sophisticated models capable of high precision in particle position prediction.
+The dataset for this project comprises 514,000 events, each representing a unique particle interaction with the RSD. Key features in this dataset include signal magnitude, area, and delay, which are essential for understanding the behavior of particles as they pass through the detector. These features serve as the basis for predicting the $(x, y)$ coordinates of particle events. The dataset's large size and comprehensive feature set present an opportunity to develop and train sophisticated models capable of high precision in particle position prediction. \
+
+![Image](https://github.com/alialhousseini/RSD-Particle-Predictor/blob/main/Screenshot%202024-01-18%20023237.png?raw=true)
+
+For each signal measured by each of the 12 pads, some features are extracted and comprise the dataset.
+In particular:
+`pmax[0], pmax[1], ... pmax[17]`: the magnitude of the positive peak of the signal, in mV
+`negpmax[0], negpmax[1], ... negpmax[17]`: the magnitude of the negative peak of the signal,
+in mV
+`tmax[0], tmax[1], ... tmax[17]`: the delay (in ns) from a reference time when the positive
+peak of the signal occurs
+`area[0], area[1], ... area[17]`: the area under the signal
+`rms[0], rms[1], ... rms[17]`: the root mean square (RMS) value of the signal.
 
 
 ## Repository Structure
