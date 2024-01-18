@@ -1,7 +1,7 @@
 # Particle Position Prediction in RSD - Data Science Pipeline
 
 ## Project Overview
-This repository contains my work on a data science project for predicting the positions of particles (e.g., electrons) as they pass through a Resistive Silicon Detector (RSD). The project aims to build a robust predictive model to accurately determine the (x, y) coordinates of particle events based on signal measurements from the detector's pads.
+This repository contains my work - [Username1](https://github.com/username1) - Provided initial project idea and data analysis. and  on a data science project for predicting the positions of particles (e.g., electrons) as they pass through a Resistive Silicon Detector (RSD). The project aims to build a robust predictive model to accurately determine the (x, y) coordinates of particle events based on signal measurements from the detector's pads.
 
 ### Problem Statement
 Brief description of the problem, including the nature of the data and the specific challenge of predicting the particle positions.
