@@ -13,13 +13,13 @@ The dataset for this project comprises 514,000 events, each representing a uniqu
 
 For each signal measured by each of the 12 pads, some features are extracted and comprise the dataset.
 In particular:
-`pmax[0], pmax[1], ... pmax[17]`: the magnitude of the positive peak of the signal, in mV
-`negpmax[0], negpmax[1], ... negpmax[17]`: the magnitude of the negative peak of the signal,
+- `pmax[0], pmax[1], ... pmax[17]`: the magnitude of the positive peak of the signal, in mV
+- `negpmax[0], negpmax[1], ... negpmax[17]`: the magnitude of the negative peak of the signal,
 in mV
-`tmax[0], tmax[1], ... tmax[17]`: the delay (in ns) from a reference time when the positive
+- `tmax[0], tmax[1], ... tmax[17]`: the delay (in ns) from a reference time when the positive
 peak of the signal occurs
-`area[0], area[1], ... area[17]`: the area under the signal
-`rms[0], rms[1], ... rms[17]`: the root mean square (RMS) value of the signal.
+- `area[0], area[1], ... area[17]`: the area under the signal
+- `rms[0], rms[1], ... rms[17]`: the root mean square (RMS) value of the signal.
 
 
 ## Repository Structure
