@@ -1,13 +1,14 @@
 # Particle Position Prediction in RSD - Data Science Pipeline
 
 ## Project Overview
-This repository contains my work - [Username1](https://github.com/username1) - Provided initial project idea and data analysis. and  on a data science project for predicting the positions of particles (e.g., electrons) as they pass through a Resistive Silicon Detector (RSD). The project aims to build a robust predictive model to accurately determine the (x, y) coordinates of particle events based on signal measurements from the detector's pads.
+This repository contains our work [Me](https://github.com/alialhousseini) & [Sana Ailla](https://github.com/sanu2a) on a data science project for predicting the positions of particles (e.g., electrons) as they pass through a Resistive Silicon Detector (RSD). The project aims to build a **robust predictive model** to accurately determine the $(x, y)$ coordinates of particle events based on signal measurements from the detector's pads.
 
 ### Problem Statement
-Brief description of the problem, including the nature of the data and the specific challenge of predicting the particle positions.
+This project addresses a significant challenge in particle physics: accurately predicting the positions of particles, like electrons, as they pass through a Resistive Silicon Detector (RSD). The task involves analyzing signals captured by the RSD's pads, which provide crucial data points for determining particle trajectories. The complexity of this problem lies in the intricate nature of the signals and the precision required to accurately map particle positions. Developing a predictive model capable of handling this complexity is not only essential for advancing our understanding of particle behaviors but also has broader implications in the field of physics research and detector technology.
 
 ### Dataset
-A summary of the dataset used, including the number of events and the types of signal features (like magnitude, area, delay, etc.). Provide a link to the dataset if publicly available or a description if not.
+The dataset for this project comprises 514,000 events, each representing a unique particle interaction with the RSD. Key features in this dataset include signal magnitude, area, and delay, which are essential for understanding the behavior of particles as they pass through the detector. These features serve as the basis for predicting the $(x, y)$ coordinates of particle events. The dataset's large size and comprehensive feature set present an opportunity to develop and train sophisticated models capable of high precision in particle position prediction.
+
 
 ## Repository Structure
 Provide an overview of the repository's structure. Example:
